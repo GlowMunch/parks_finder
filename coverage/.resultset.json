@@ -63,45 +63,22 @@
           null
         ]
       },
-      "/Users/bg/turing/3mod/parks_finder/app/facades/search_facade.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          0,
-          0,
-          0,
-          0,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/bg/turing/3mod/parks_finder/app/poros/park.rb": {
+      "/Users/bg/turing/3mod/parks_finder/app/services/national_parks_service.rb": {
         "lines": [
           1,
           1,
-          null,
+          1,
+          1,
           null,
           null,
           null,
           1,
-          0,
-          0,
-          0,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null,
+          1,
+          1,
           null,
           null,
           1,
-          0,
-          0,
-          0,
+          1,
           null,
           null
         ]
@@ -158,6 +135,23 @@
         "branches": {
         }
       },
+      "/Users/bg/turing/3mod/parks_finder/app/facades/search_facade.rb": {
+        "lines": [
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/Users/bg/turing/3mod/parks_finder/app/jobs/application_job.rb": {
         "lines": [
           0,
@@ -185,20 +179,28 @@
         "branches": {
         }
       },
-      "/Users/bg/turing/3mod/parks_finder/app/services/national_parks_service.rb": {
+      "/Users/bg/turing/3mod/parks_finder/app/poros/park.rb": {
         "lines": [
           0,
           0,
           0,
           0,
           0,
-          0,
           null,
           0,
           0,
           0,
           0,
+          0,
           null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
           0,
           0,
           0,
@@ -208,6 +210,6 @@
         }
       }
     },
-    "timestamp": 1693852432
+    "timestamp": 1693852624
   }
 }

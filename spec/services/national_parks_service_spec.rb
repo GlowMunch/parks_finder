@@ -5,7 +5,7 @@ RSpec.describe "Parks Service" do
   describe "as a visitor" do
     it "can search for parks by state" do
 
-      stub_request(:get, "https://developer.nps.gov/api/v1/parks?api_key=ajDOgds6ypwgBItsCB3dOfmyYFEoVm4hNnL5vCO8&stateCodeTN")
+      stub_request(:get, "https://developer.nps.gov/api/v1/parks?api_key=ajDOgds6ypwgBItsCB3dOfmyYFEoVm4hNnL5vCO8&stateCode=TN")
       .to_return(body: file_fixture("parks_response.json").read)
 
       search = NationalParksService.new.park_by_state("TN")
