@@ -1,0 +1,8 @@
+<%= @parks.count %></br>
+<% @parks.each do |park| %>
+  Park Name: <%= park.name %></br>
+  Description: <%= park.description %></br>
+  Directions: <%= park.direction_info %></br>
+  Hours: <%= park.hours %></br>
+  </br>
+<% end  %>

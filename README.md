@@ -14,7 +14,6 @@ $ bundle install
 $ rake db:{create,migrate}
 $ rails s
 ```
-
 Navigate to `http://localhost:3000`
 
 _Note: This should bring up an error, but you should be able to start the server fine._

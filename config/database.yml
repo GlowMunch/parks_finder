@@ -83,3 +83,4 @@ production:
   database: park_finder_production
   username: park_finder
   password: <%= ENV['PARK_FINDER_DATABASE_PASSWORD'] %>
+
